@@ -6,7 +6,7 @@ sklearn.set_config(transform_output="pandas")
 
 st.title('Модель предсказания цен на недвижимость')
 
-ml_model = joblib.load('/home/saule/House-Prices-Project/streamlit/pages/ml_pipeline_house.pkl')
+ml_model = joblib.load('ml_pipeline_house.pkl')
 
 
 st.write("Загрузите ваш файл")
