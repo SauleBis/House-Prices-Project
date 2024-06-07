@@ -74,7 +74,8 @@ st.write('Столбцы с признаками, например Heating, не
 
 
 st.subheader('Pipeline препроцессинга')
-st.image('/home/saule/Загрузки/pipeline.png')
+image_url = 'https://github.com/SauleBis/House-Prices-Project/blob/main/pipeline.png'
+st.image('image_url')
 
 
 st.subheader('Модель предсказания цен на недвижимость')
