@@ -7,7 +7,7 @@ import seaborn as sns
 st.title('Анализ и подготовка данных к созданию модели')
 
 st.write('Данные для обучения модели')
-train = pd.read_csv('/home/saule/House-Prices-Project/Data/train.csv')
+train = pd.read_csv('House-Prices-Project/streamlit/Data/train.csv')
 st.table(train.head(4))
 
 # График 1
