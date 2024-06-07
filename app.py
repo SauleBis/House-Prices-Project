@@ -73,11 +73,6 @@ st.pyplot(fig)
 st.write('Столбцы с признаками, например Heating, не имеющими значения, удаляли полностью')
 
 
-st.subheader('Pipeline препроцессинга')
-image_url = 'https://github.com/SauleBis/House-Prices-Project/blob/main/pipeline.png'
-st.image('image_url')
-
-
 st.subheader('Модель предсказания цен на недвижимость')
 
 ml_model = joblib.load('ml_pipeline_house.pkl')
